@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;;
+}
+
+html {
+  background-image: url(../login-page-two/BG.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  background: rgba(220, 222, 236);
+  border: 1px solid #EBECF3;
+  backdrop-filter: blur(22px);
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 368px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #2A2E3C;
+}
+
+.header__title {
+  margin-bottom: 18px;
+}
+
+.header__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  color: #2A2E3C;
+}
+
+.login__input-box {
+  position: relative;
+  width: 100%;
+}
+
+.login__input {
+  width: 100%;
+  padding: 12px;
+  background: rgba(220, 222, 236);
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+  color: #67697C;
+  font-size: 1em;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+
+
+.login__input-text {
+  position: absolute;
+  left: 0;
+  padding: 14px;
+  pointer-events: none;
+  font-size: 1em;
+  color: #67697C;
+  transition: 0.5s;
+}
+
+.login__input:valid ~ .login__input-text,
+.login__input:focus ~ .login__input-text {
+  color:  #df54badb;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.6em;
+  padding: 0 10px;
+  background: rgba(220, 222, 236);
+  border-left: 1px solid #df54badb;
+  border-right: 1px solid #df54badb;
+  letter-spacing: 0.2em;
+}
+
+.login__input:valid,
+.login__input:focus {
+  border: 1px solid #df54badb;;
+}
+
+.button {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 8px;
+}
+
+.login__button {
+  background: #FF0065;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.login__button:hover {
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.login__button:active {
+  background-color: rgb(199, 43, 150);
+}

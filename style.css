@@ -35,6 +35,10 @@ body {
 }
 
 .link:nth-child(2):active{
+  text-shadow: -3px -5px 6px rgb(125, 13, 136);
+}
+
+.link:nth-child(3):active{
   text-shadow: -3px -5px 6px rgb(255, 255, 255);
 }
 
@@ -44,6 +48,11 @@ text-shadow: 3px 5px 6px black;
 }
 
 .link:nth-child(2) {
+  color: rgb(176, 26, 176);
+  text-shadow: 3px 5px 6px rgb(125, 13, 136);
+}
+
+.link:nth-child(3) {
   color: rgb(0, 0, 0);
   text-shadow: 3px 5px 6px rgb(255, 255, 255);
 }

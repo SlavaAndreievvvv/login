@@ -5,11 +5,11 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Nunito Sans', serif;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;;
 }
 
 html {
-  background-image: url(/login-page-two/BG.png);
+  background-image: url(../login-page-two/BG.png);
   background-size: cover;
   height: 100vh;
 }
