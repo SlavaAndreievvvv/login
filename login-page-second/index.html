@@ -18,19 +18,25 @@
         <form class="login__form">
           <label class="login__label" for="email">Work email</label>
           <input
-            class="login__input"
+            class="input login__input"
             id="email"
             type="email"
             placeholder="Type email here..."
+            minlength="5"
+            maxlength="40"
+            required
           />
           <label class="login__label" for="password">Password</label>
           <input
-            class="login__input"
+            class="input login__input"
             id="password"
             type="password"
             placeholder="Minimum 8 characters..."
+            minlength="8"
+            maxlength="20"
+            required
           />
-          <button class="login__button">Log In</button>
+          <button class="button login__button">Log In</button>
           <a class="login__link" href="#">Forgotten Password?</a>
         </form>
       </div>

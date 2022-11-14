@@ -99,6 +99,10 @@ body {
   outline: none;
   transition: all 0.3s ease 0s;
   color: aliceblue;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
 }
 
 .login__input::placeholder {
