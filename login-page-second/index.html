@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>second page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="login__header">
+        <h1 class="login__title">Log In to Your Account</h1>
+        <p class="login__subtitle">
+          Transform your next session planning process with easy to use Falco
+          tools.
+        </p>
+        <form class="login__form">
+          <label class="login__label" for="email">Work email</label>
+          <input
+            class="input login__input"
+            id="email"
+            type="email"
+            placeholder="Type email here..."
+            minlength="5"
+            maxlength="40"
+            required
+          />
+          <label class="login__label" for="password">Password</label>
+          <input
+            class="input login__input"
+            id="password"
+            type="password"
+            placeholder="Minimum 8 characters..."
+            minlength="8"
+            maxlength="20"
+            required
+          />
+          <button class="button login__button">Log In</button>
+          <a class="login__link" href="#">Forgotten Password?</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins Arial, Helvetica, sans-serif;
+}
+
+html {
+  background-image: url(../login-page-first/BG.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  max-width: 386px;
+  padding-top: 178px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 120%;
+  font-family: 'Poppins';
+  letter-spacing: -0.2px;
+}
+
+.login__title{
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.login__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  /*position: relative;*/
+}
+
+
+.icon {
+  position: absolute;
+  top: 16.45px;
+  left: 18.61px;
+  fill: #3F3B4C;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.login__label {
+  color: #EAE6EF;
+  margin-bottom: 12px;
+}
+
+.wrapper-input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 24px;
+  }
+
+.input {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  height: 48px;
+}
+
+.login__input:hover {
+  background: #201C2D;
+}
+
+.login__input:focus {
+  border: 1px solid #7B14FF;
+}
+
+.login__input:focus ~ .icon {
+  fill: #7B14FF;
+  /*border: transparent;*/
+}
+
+.login__input {
+  padding-left: 56px;
+  background-color: transparent;
+  border: 1px solid #3F3B4C;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.login__input::placeholder {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%; 
+  color: #90859C;
+}
+
+
+.button {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.login__button{
+  background: #7B14FF;
+}
+
+.login__button:hover {
+  background: #8647E0;;
+}
+
+.login__button:active {
+  background:  #4400A5;
+}
+
+.button__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF; 
+}
+
+.footer-text {
+  width: 382px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #90859C; 
+}
+
+.footer-link {
+  color: #90859C; 
+}

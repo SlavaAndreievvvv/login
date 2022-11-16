@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;;
+}
+
+html {
+  background-image: url(../login-page-two/BG.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(220, 222, 236, 0.18);
+  border: 1px solid #EBECF3;
+  backdrop-filter: blur(22px);  
+  border-radius: 10px;
+  padding: 48px 50px;
+}
+
+.login__header {
+  width: 350px;
+}
+
+.login__title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  color: #2A2E3C;
+}
+
+.login__subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 145%;
+  color: #2A2E3C;
+  margin-bottom: 40px;
+}
+
+.login__form {
+  max-width: 368px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%;
+  color: #67697C;
+  margin-bottom: 8px;
+}
+
+.login__input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 145%; 
+  color: #9C9DA6;
+}
+
+
+.login__input {
+  padding-left: 14px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #D3D5E2;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  /*display: flex;
+  align-items: center;*/
+  color: #2A2E3C;
+
+}
+
+.login__input:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.login__input:last-of-type {
+  margin-bottom: 24px;
+}
+
+.login__input:hover {
+  border: 1px solid #858DE4;
+}
+
+.login__input:focus {
+  box-shadow: 0px 0px 0px 3px rgba(133, 141, 228, 0.15);
+  border: 1px solid #858DE4;
+  outline: transparent;
+}
+
+.button {
+  background: #FF0065;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: transparent;
+  cursor: pointer;
+}
+
+.login__button {
+  margin-bottom: 24px;
+}
+
+.login__button:hover {
+  background: #FF4991;
+}
+
+.login__button:active {
+  background: #E9035E;
+}
+
+.login__link {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6D7AFF;  
+}
